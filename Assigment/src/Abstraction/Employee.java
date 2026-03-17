@@ -1,4 +1,19 @@
 package Abstraction;
 
-public class Salary {
+public class Employee {
+    String name;
+    int id;
+    double salary;
+
+    public Employee(String name, int id, double salary) {
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+
+    public double calculateSalary(int hours, double rate) {
+        return 0;
+    }
+
+
 }

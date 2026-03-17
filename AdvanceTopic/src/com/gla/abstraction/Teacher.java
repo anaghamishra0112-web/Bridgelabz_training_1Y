@@ -1,4 +1,11 @@
-package com.gla.Abstraction;
+package com.gla.abstraction;
 
-public class Teacher {
+public abstract class Teacher {
+    public abstract  void info();
+    public void position()
+    {
+        System.out.println("SDE-1");
+    }
+
+
 }
